@@ -1,4 +1,6 @@
-# Data, AI & Student Success — Linda "Ify" Onwubuya
+# Maverick EdLab — Data, AI & Student Success
+
+Personal academic site of Linda "Ify" Onwubuya, branded as **Maverick EdLab**.
 
 Personal academic site with a built-in, weekday-themed blog. Plain HTML/CSS/JS:
 no build step, free to host on GitHub Pages.

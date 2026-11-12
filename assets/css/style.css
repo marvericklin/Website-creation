@@ -385,3 +385,6 @@ main { display: block; }
 .theme-btn:hover { color: var(--green); border-color: var(--green); }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+/* Brand byline: hide the name on very small screens to keep the header tidy */
+@media (max-width: 420px) { .brand-by { display: none; } }

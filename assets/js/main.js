@@ -139,7 +139,7 @@
     } else {
       var p = POSTS[idx];
       var newer = POSTS[idx - 1], older = POSTS[idx + 1];
-      document.title = p.title + " · Linda “Ify” Onwubuya";
+      document.title = p.title + " · Maverick EdLab";
       articleEl.innerHTML =
         '<header class="article-head">' +
           '<div class="meta">' + tag(p.theme) + "<span>" + weekday(p.date) + ", " + fmtDate(p.date) + "</span><span>· " + p.minutes + " min read</span></div>" +
