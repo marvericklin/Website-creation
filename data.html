@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Work · Linda “Ify” Onwubuya</title>
+<meta name="description" content="Dashboards and analyses in R, Python and Power BI using public and mock data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-name">Linda “Ify” Onwubuya</span>
+      <span class="brand-tag">Data, AI &amp; Student Success</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="data.html" aria-current="page">Data Work</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact & Speaking</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Data Work</p>
+    <h1>Analyses that start with a question.</h1>
+    <p class="lede">Selected projects in R, Python and Power BI. Every project here uses public or simulated data — never institutional student records — so the code can be shared openly.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:24px">
+  <div class="wrap cards cards-3">
+    <article class="project">
+      <div class="project-fig"><svg viewBox="0 0 320 150" role="img" aria-label="Mock first-year retention by entering cohort, 2019 to 2024, rising from 78% to 82%"><line class="fig-axis" x1="10" y1="125" x2="310" y2="125"/><rect class="fig-green" x="22" y="53" width="34" height="72" rx="2"/><text class="fig-value" x="39.0" y="47" text-anchor="middle">78%</text><text class="fig-label" x="39.0" y="141" text-anchor="middle">2019</text><rect class="fig-green" x="72" y="69" width="34" height="56" rx="2"/><text class="fig-value" x="89.0" y="63" text-anchor="middle">74%</text><text class="fig-label" x="89.0" y="141" text-anchor="middle">2020</text><rect class="fig-green" x="122" y="61" width="34" height="64" rx="2"/><text class="fig-value" x="139.0" y="55" text-anchor="middle">76%</text><text class="fig-label" x="139.0" y="141" text-anchor="middle">2021</text><rect class="fig-green" x="172" y="49" width="34" height="76" rx="2"/><text class="fig-value" x="189.0" y="43" text-anchor="middle">79%</text><text class="fig-label" x="189.0" y="141" text-anchor="middle">2022</text><rect class="fig-green" x="222" y="41" width="34" height="84" rx="2"/><text class="fig-value" x="239.0" y="35" text-anchor="middle">81%</text><text class="fig-label" x="239.0" y="141" text-anchor="middle">2023</text><rect class="fig-amber" x="272" y="37" width="34" height="88" rx="2"/><text class="fig-value" x="289.0" y="31" text-anchor="middle">82%</text><text class="fig-label" x="289.0" y="141" text-anchor="middle">2024</text></svg></div>
+      <div class="project-body">
+        <div class="tools"><span class="tool">R</span><span class="tool">tidyverse</span><span class="tool">Shiny</span></div>
+        <h3>First-year retention explorer</h3>
+        <p>An interactive Shiny dashboard comparing retention across cohorts and student groups, with a logistic model of early-term predictors.</p>
+        <dl><dt>Data</dt><dd>Simulated cohort data modeled on IPEDS retention rates</dd><dt>Methods</dt><dd>Logistic regression, cohort comparison</dd></dl>
+        <div class="project-links"><a href="#">Live dashboard →</a><a href="#">Code</a></div>
+      </div>
+    </article>
+    <article class="project">
+      <div class="project-fig"><svg viewBox="0 0 320 150" role="img" aria-label="Mock survey: share of students using generative AI for tutoring, drafting, checking and navigating, compared for first-generation and continuing-generation students"><text class="fig-label" x="10" y="30">Tutoring</text><line class="fig-axis" x1="100" y1="26" x2="300" y2="26"/><line class="fig-line-green" x1="204.0" y1="26" x2="228.0" y2="26" stroke-width="2"/><circle class="fig-green" cx="228.0" cy="26" r="5"/><circle class="fig-amber" cx="204.0" cy="26" r="5"/><text class="fig-label" x="10" y="60">Drafting</text><line class="fig-axis" x1="100" y1="56" x2="300" y2="56"/><line class="fig-line-green" x1="176.0" y1="56" x2="182.0" y2="56" stroke-width="2"/><circle class="fig-green" cx="182.0" cy="56" r="5"/><circle class="fig-amber" cx="176.0" cy="56" r="5"/><text class="fig-label" x="10" y="90">Checking</text><line class="fig-axis" x1="100" y1="86" x2="300" y2="86"/><line class="fig-line-green" x1="188.0" y1="86" x2="216.0" y2="86" stroke-width="2"/><circle class="fig-green" cx="216.0" cy="86" r="5"/><circle class="fig-amber" cx="188.0" cy="86" r="5"/><text class="fig-label" x="10" y="120">Navigating</text><line class="fig-axis" x1="100" y1="116" x2="300" y2="116"/><line class="fig-line-green" x1="154.0" y1="116" x2="170.0" y2="116" stroke-width="2"/><circle class="fig-green" cx="154.0" cy="116" r="5"/><circle class="fig-amber" cx="170.0" cy="116" r="5"/><circle class="fig-green" cx="104" cy="140" r="4"/><text class="fig-label" x="112" y="144">Continuing-gen</text><circle class="fig-amber" cx="210" cy="140" r="4"/><text class="fig-label" x="218" y="144">First-gen</text></svg></div>
+      <div class="project-body">
+        <div class="tools"><span class="tool">Python</span><span class="tool">pandas</span><span class="tool">statsmodels</span></div>
+        <h3>How students use generative AI</h3>
+        <p>An analysis of a mock survey on purposes of AI use — tutoring, drafting, checking, navigating — with comparisons across student groups.</p>
+        <dl><dt>Data</dt><dd>Simulated survey (n = 1,200)</dd><dt>Methods</dt><dd>Survey weighting, chi-square, notebook report</dd></dl>
+        <div class="project-links"><a href="#">Notebook →</a><a href="#">Code</a></div>
+      </div>
+    </article>
+    <article class="project">
+      <div class="project-fig"><svg viewBox="0 0 320 150" role="img" aria-label="Public-data style line chart: employment rate within six months rising for two majors groups between 2019 and 2024"><line class="fig-axis" x1="20" y1="130" x2="310" y2="130"/><path class="fig-line-green" d="M30,77.2 L84,70.0 L138,55.60000000000001 L192,50.8 L246,38.8 L300,31.60000000000001" fill="none" stroke-width="2.5"/><path class="fig-line-amber" d="M30,106.0 L84,96.4 L138,89.2 L192,74.80000000000001 L246,70.0 L300,58.0" fill="none" stroke-width="2.5" stroke-dasharray="5 4"/><text class="fig-value" x="300" y="24" text-anchor="end">STEM</text><text class="fig-value" x="300" y="56" text-anchor="end">Non-STEM</text><text class="fig-label" x="30" y="146" text-anchor="middle">’19</text><text class="fig-label" x="84" y="146" text-anchor="middle">’20</text><text class="fig-label" x="138" y="146" text-anchor="middle">’21</text><text class="fig-label" x="192" y="146" text-anchor="middle">’22</text><text class="fig-label" x="246" y="146" text-anchor="middle">’23</text><text class="fig-label" x="300" y="146" text-anchor="middle">’24</text></svg></div>
+      <div class="project-body">
+        <div class="tools"><span class="tool">Power BI</span><span class="tool">DAX</span></div>
+        <h3>Career outcomes dashboard</h3>
+        <p>A Power BI report on post-graduation earnings and outcomes by field of study, designed for advisors and career-center staff.</p>
+        <dl><dt>Data</dt><dd>U.S. Dept. of Education College Scorecard (public)</dd><dt>Methods</dt><dd>Data modeling, DAX measures, drill-through</dd></dl>
+        <div class="project-links"><a href="#">View report →</a><a href="#">Screenshots</a></div>
+      </div>
+    </article>
+  </div>
+  <div class="wrap"><p class="muted small" style="margin-top:32px">Charts above are illustrative previews built from mock values.</p></div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Linda “Ify” Onwubuya · Data, AI &amp; Student Success</span>
+    <div class="foot-links">
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://www.linkedin.com/in/your-profile" rel="noopener">LinkedIn</a>
+      <button class="theme-btn" type="button">Dark mode</button>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/posts.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
